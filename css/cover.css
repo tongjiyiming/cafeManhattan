@@ -27,25 +27,13 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
-}
-body {
-  color: #fff;
+  background: url('../content/coffee_shop.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
-}
-
-.bg { 
-    /* The image used */
-    background-image: url("https://github.com/tongjiyiming/cafeManhattan/blob/master/content/coffee_shop.jpeg");
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -78,6 +66,7 @@ body {
 
 .masthead {
   margin-bottom: 2rem;
+  color: #fff;
 }
 
 .masthead-brand {
@@ -127,8 +116,15 @@ body {
   padding: .75rem 1.25rem;
   font-weight: bold;
 }
+.cover-heading {
+  color: #fff;
+}
 
-
+.intro {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);;
+  tra
+}
 /*
  * Footer
  */
