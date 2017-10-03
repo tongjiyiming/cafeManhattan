@@ -37,7 +37,7 @@ body {
 
 .bg { 
     /* The image used */
-    background-image: url("content/coffee_shop.jpeg");
+    background-image: url("https://github.com/tongjiyiming/cafeManhattan/blob/master/content/coffee_shop.jpeg");
 
     /* Full height */
     height: 100%; 
